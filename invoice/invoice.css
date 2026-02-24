@@ -1,0 +1,66 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f8fa;
+  padding: 40px;
+}
+
+.invoice-container {
+  background: white;
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #2F5D7C;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #2F5D7C;
+  margin-bottom: 10px;
+}
+
+.status {
+  margin-top: 10px;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.unpaid { background: #fde2e2; color: #9B2C2C; }
+.partial { background: #fff4e0; color: #B15A00; }
+.paid { background: #e1f5ea; color: #1F7A4A; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  color: #2F5D7C;
+}
+
+.totals {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.totals h3 {
+  color: #2F5D7C;
+}
