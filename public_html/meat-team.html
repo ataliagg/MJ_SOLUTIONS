@@ -59,44 +59,7 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-card">
-          <div class="hero-copy">
-            <div class="kicker">Meet Our Team</div>
-            <h1 class="h1">The people behind every polished finish.</h1>
-            <p class="hero-sub">
-              Our crew brings the same care to every site: clear communication, tight checklists, and reliable execution.
-              From commercial facilities to post-construction projects, we keep the work organized and the results consistent.
-            </p>
-            <div class="btn-row">
-              <a class="btn primary" href="./contact.html">Start a Project</a>
-              <a class="btn" href="./services.html">Our Services</a>
-              <a class="btn ghost" href="./our-work.html">See Our Work</a>
-            </div>
-
-            <div class="hero-pills" aria-label="Team specialties">
-              <span class="pill">Commercial</span>
-              <span class="pill">Post-Construction</span>
-              <span class="pill">Janitorial</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-card">
-          <div class="team-collage" aria-label="Sample team portraits">
-            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sample portrait for the operations lead" />
-            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Sample portrait for the field supervisor" />
-            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Sample portrait for client care and quality control" />
-            <div class="team-collage-note">
-              These internet portraits are just layout placeholders, so you can swap in your real team photos later.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
+    <section class="section" id="roles">
       <div class="container">
         <div class="section-head">
           <div class="kicker">How We Work</div>
@@ -105,12 +68,29 @@
             Since 2012, MJ Cleaning Solutions has grown by building repeatable systems and showing up consistently for
             offices, schools, healthcare spaces, and construction teams.
           </p>
+          <p class="lede">
+            We do not treat cleaning like a one-size-fits-all service. Each job starts with a quick walk-through, a clear
+            scope, and a plan for access, timing, and priorities. From there, the crew works through the site in a logical
+            order, checks the details before finishing, and keeps communication open so the client always knows what was
+            done and what comes next.
+          </p>
+          <p class="lede">
+            That process matters because different spaces need different rhythms. A school may need fast turnaround and
+            visibility, a healthcare space may need tighter sanitation steps, and a post-construction site may need heavy
+            detail cleaning before handoff. Our team is built to adjust to that without losing consistency.
+          </p>
         </div>
 
-        <div class="grid cols-3">
-          <article class="card team-card">
-            <div class="team-photo-frame">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Operations lead portrait placeholder" />
+        <div class="team-equal-grid">
+          <article class="card team-equal-card">
+            <div class="team-equal-media">
+              <img
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80"
+                alt="Operations lead portrait placeholder"
+                loading="lazy"
+                decoding="async"
+                onerror="this.onerror=null;this.src='./assets/team.jpg';"
+              />
             </div>
             <div class="card-body">
               <div class="team-pill-row">
@@ -128,14 +108,20 @@
             </div>
           </article>
 
-          <article class="card team-card">
-            <div class="team-photo-frame">
-              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Field supervisor portrait placeholder" />
+          <article class="card team-equal-card">
+            <div class="team-equal-media">
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1200&q=80"
+                alt="Field supervisor portrait placeholder"
+                loading="lazy"
+                decoding="async"
+                onerror="this.onerror=null;this.src='./assets/team.jpg';"
+              />
             </div>
             <div class="card-body">
               <div class="team-pill-row">
                 <span class="team-pill">On-site</span>
-                <span class="team-pill">Quality Checks</span>
+                <span class="team-pill">Quality checks</span>
               </div>
               <h3 class="title">Field Supervisor</h3>
               <p class="meta">
@@ -148,14 +134,20 @@
             </div>
           </article>
 
-          <article class="card team-card">
-            <div class="team-photo-frame">
-              <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Client care and quality control portrait placeholder" />
+          <article class="card team-equal-card">
+            <div class="team-equal-media">
+              <img
+                src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=80"
+                alt="Client care and quality control portrait placeholder"
+                loading="lazy"
+                decoding="async"
+                onerror="this.onerror=null;this.src='./assets/team.jpg';"
+              />
             </div>
             <div class="card-body">
               <div class="team-pill-row">
-                <span class="team-pill">Client Care</span>
-                <span class="team-pill">Final Pass</span>
+                <span class="team-pill">Client care</span>
+                <span class="team-pill">Final pass</span>
               </div>
               <h3 class="title">Quality Control &amp; Client Care</h3>
               <p class="meta">
@@ -171,38 +163,61 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="container split">
+    <section class="section" id="next-step">
+      <div class="container">
         <div class="panel pad">
           <div class="section-head">
             <div class="kicker">Next Steps</div>
-            <h2 class="h2">See the team in action on a real project.</h2>
+            <h2 class="h2">Choose the path that matches what you need next.</h2>
             <p class="lede">
-              Choose the path that fits where you are right now: explore services, review our work, or send us the basics and we will help shape the plan.
+              If you are still comparing options, start with the service pages. If you want proof, look at our work.
+              If you are ready, contact us and we will take it from there.
             </p>
           </div>
 
           <div class="btn-row">
             <a class="btn primary" href="./services.html">Explore Services</a>
-            <a class="btn" href="./our-work.html">View Our Work</a>
-            <a class="btn ghost" href="./contact.html">Contact Us</a>
+            <a class="btn" href="./markets.html">Browse Markets</a>
+            <a class="btn ghost" href="./our-work.html">See Projects</a>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="panel pad">
-          <div class="team-quote">
-            <strong>What clients notice first</strong>
-            <p class="note" style="margin: 0;">
-              Clear communication, neat finishing, and a crew that treats every space like it has to be ready for guests, staff, or inspectors the same day.
+    <section class="section" id="join-team">
+      <div class="container">
+        <div class="panel pad join-team-grid">
+          <div class="section-head">
+            <div class="kicker">Careers</div>
+            <h2 class="h2">Join a team that values reliability, professionalism, and attention to detail.</h2>
+            <p class="lede">
+              We welcome dependable people who take pride in their work and understand the standards needed in commercial
+              cleaning, post-construction cleanup, and facility support.
             </p>
+          </div>
+
+          <div class="join-team-cards">
+            <article class="card pad join-card">
+              <div class="join-card-top">
+                <span class="join-card-tag">Apply by email</span>
+              </div>
+              <h3 class="title">Send your CV</h3>
+              <p class="meta">
+                Attach your resume and include a brief note about your experience and the type of role you are looking for.
+              </p>
+              <div class="btn-row">
+                <a class="btn primary" href="mailto:MJG@mjcleaningsolution.com?subject=Job%20Application%20-%20MJ%20Cleaning%20Solutions">Email CV</a>
+                <a class="btn" href="./contact.html">Contact Us</a>
+              </div>
+            </article>
           </div>
 
           <div class="hr"></div>
 
           <ul class="clean-list">
-            <li>Site-specific checklists for schools, offices, healthcare, and construction.</li>
-            <li>Well-timed communication before, during, and after each visit.</li>
-            <li>A team culture built around accountability and respect for your space.</li>
+            <li>Commercial cleaning, janitorial, and post-construction experience is a plus.</li>
+            <li>Reliability, professionalism, and attention to detail matter most.</li>
+            <li>We welcome people who communicate well, work safely, and follow site procedures.</li>
           </ul>
         </div>
       </div>
